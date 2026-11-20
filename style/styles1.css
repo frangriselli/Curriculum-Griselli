@@ -167,4 +167,28 @@ h3 {
 .fecha {
     font-weight: 600;
     margin: 5px 0 10px;
+} 
+.subtitulo {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.etiqueta {
+    background-color: #FFFFFF;
+    border: 2px solid #1F6FA8;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.etiqueta:hover {
+    background-color: #1F6FA8;
+    color: #FFFFFF;
 }
